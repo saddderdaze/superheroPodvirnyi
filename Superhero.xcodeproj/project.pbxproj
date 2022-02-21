@@ -13,8 +13,6 @@
 		E0A702E227BCE71800649525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A702E027BCE71800649525 /* Main.storyboard */; };
 		E0A702E427BCE71A00649525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A702E327BCE71A00649525 /* Assets.xcassets */; };
 		E0A702E727BCE71A00649525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A702E527BCE71A00649525 /* LaunchScreen.storyboard */; };
-		E0A702F227BCFE0800649525 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A702F127BCFE0800649525 /* ProfileManager.swift */; };
-		E0A702F427BCFE3B00649525 /* BodyParametrsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A702F327BCFE3B00649525 /* BodyParametrsStorage.swift */; };
 		E0A702FF27BCFF3700649525 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A702FE27BCFF3700649525 /* Coordinator.swift */; };
 		E0A7030127BD00BA00649525 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A7030027BD00BA00649525 /* MainCoordinator.swift */; };
 		E0A7030327BD200B00649525 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A7030227BD200B00649525 /* Start.storyboard */; };
@@ -29,8 +27,6 @@
 		E0A702E327BCE71A00649525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0A702E627BCE71A00649525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0A702E827BCE71A00649525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E0A702F127BCFE0800649525 /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
-		E0A702F327BCFE3B00649525 /* BodyParametrsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyParametrsStorage.swift; sourceTree = "<group>"; };
 		E0A702FE27BCFF3700649525 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		E0A7030027BD00BA00649525 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		E0A7030227BD200B00649525 /* Start.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
@@ -236,8 +232,6 @@
 				E0A7030127BD00BA00649525 /* MainCoordinator.swift in Sources */,
 				E0A702DB27BCE71800649525 /* AppDelegate.swift in Sources */,
 				E0A702DD27BCE71800649525 /* SceneDelegate.swift in Sources */,
-				E0A702F227BCFE0800649525 /* ProfileManager.swift in Sources */,
-				E0A702F427BCFE3B00649525 /* BodyParametrsStorage.swift in Sources */,
 				E0A702FF27BCFF3700649525 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
