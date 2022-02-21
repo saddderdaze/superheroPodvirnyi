@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RmM-ym-sZe">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Start View Controller-->
+        <scene sceneID="0gi-Me-Ou2">
+            <objects>
+                <viewController storyboardIdentifier="StartViewController" id="RmM-ym-sZe" customClass="StartViewController" customModule="Superhero" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rI3-PU-1cB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="78j-md-ANd">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xMi-Yh-cCc">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="284"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="supermanImage" translatesAutoresizingMaskIntoConstraints="NO" id="xES-f1-NZE">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="284"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUy-WZ-0zd">
+                                                <rect key="frame" x="88" y="120" width="144" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="44" id="CI1-Yy-WjB"/>
+                                                    <constraint firstAttribute="width" constant="144" id="aMz-TF-XSJ"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="SUPERMAN" cornerStyle="capsule">
+                                                    <backgroundConfiguration key="background">
+                                                        <color key="backgroundColor" red="1" green="0.85882352941176465" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="xES-f1-NZE" firstAttribute="leading" secondItem="xMi-Yh-cCc" secondAttribute="leading" id="CQj-aI-gpA"/>
+                                            <constraint firstAttribute="bottom" secondItem="xES-f1-NZE" secondAttribute="bottom" id="Ide-Di-iG3"/>
+                                            <constraint firstItem="hUy-WZ-0zd" firstAttribute="centerY" secondItem="xMi-Yh-cCc" secondAttribute="centerY" id="WFY-9A-DMF"/>
+                                            <constraint firstAttribute="trailing" secondItem="xES-f1-NZE" secondAttribute="trailing" id="ZSG-ge-XdB"/>
+                                            <constraint firstItem="xES-f1-NZE" firstAttribute="top" secondItem="xMi-Yh-cCc" secondAttribute="top" id="d7V-UJ-A9I"/>
+                                            <constraint firstItem="hUy-WZ-0zd" firstAttribute="centerX" secondItem="xMi-Yh-cCc" secondAttribute="centerX" id="eIY-fo-liz"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eya-GU-P6k">
+                                        <rect key="frame" x="0.0" y="284" width="320" height="284"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="supergirlImage" translatesAutoresizingMaskIntoConstraints="NO" id="3L0-4V-ell">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="284"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a5a-nO-iSh">
+                                                <rect key="frame" x="88" y="120" width="144" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="44" id="Qtz-do-dY5"/>
+                                                    <constraint firstAttribute="width" constant="144" id="WF1-sv-QPm"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="SUPERGIRL" cornerStyle="capsule">
+                                                    <backgroundConfiguration key="background">
+                                                        <color key="backgroundColor" red="1" green="0.85882352939999995" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="3L0-4V-ell" secondAttribute="bottom" id="42u-yy-xKE"/>
+                                            <constraint firstItem="a5a-nO-iSh" firstAttribute="centerX" secondItem="Eya-GU-P6k" secondAttribute="centerX" id="NYV-RQ-Y92"/>
+                                            <constraint firstAttribute="trailing" secondItem="3L0-4V-ell" secondAttribute="trailing" id="SzY-GE-t4y"/>
+                                            <constraint firstItem="a5a-nO-iSh" firstAttribute="centerY" secondItem="Eya-GU-P6k" secondAttribute="centerY" id="fAy-rg-Hcz"/>
+                                            <constraint firstItem="3L0-4V-ell" firstAttribute="top" secondItem="Eya-GU-P6k" secondAttribute="top" id="n2J-d9-OmM"/>
+                                            <constraint firstItem="3L0-4V-ell" firstAttribute="leading" secondItem="Eya-GU-P6k" secondAttribute="leading" id="qhc-Re-KV4"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SUPERHERO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOC-Fk-15b">
+                                <rect key="frame" x="64.5" y="233.5" width="191.5" height="39.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="textColor" red="1" green="0.85882352941176465" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.97658711669999998" green="0.84006124729999998" blue="0.38028639549999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.97658711669999998" green="0.84006124729999998" blue="0.38028639549999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="0.0" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose a character" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bN-rg-H4K">
+                                <rect key="frame" x="89" y="284" width="142" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="OmT-yl-dva"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0bN-rg-H4K" firstAttribute="top" secondItem="rI3-PU-1cB" secondAttribute="centerY" id="5uz-Tc-27R"/>
+                            <constraint firstItem="OmT-yl-dva" firstAttribute="trailing" secondItem="78j-md-ANd" secondAttribute="trailing" id="HEX-Wc-mIi"/>
+                            <constraint firstItem="LOC-Fk-15b" firstAttribute="centerX" secondItem="rI3-PU-1cB" secondAttribute="centerX" id="Iqm-R7-z9j"/>
+                            <constraint firstItem="78j-md-ANd" firstAttribute="top" secondItem="rI3-PU-1cB" secondAttribute="top" id="Jh2-N1-1hf"/>
+                            <constraint firstItem="78j-md-ANd" firstAttribute="leading" secondItem="OmT-yl-dva" secondAttribute="leading" id="iS1-OD-3Cp"/>
+                            <constraint firstItem="0bN-rg-H4K" firstAttribute="centerX" secondItem="rI3-PU-1cB" secondAttribute="centerX" id="ibd-qJ-WRo"/>
+                            <constraint firstAttribute="bottom" secondItem="78j-md-ANd" secondAttribute="bottom" id="mWp-yG-Svf"/>
+                            <constraint firstItem="LOC-Fk-15b" firstAttribute="bottom" secondItem="rI3-PU-1cB" secondAttribute="centerY" constant="-11" id="nf6-yb-Wl6"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q5H-mr-hdK" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.188405797101453" y="68.973214285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="supergirlImage" width="375" height="406"/>
+        <image name="supermanImage" width="375" height="406"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -71,9 +71,7 @@
 				E0A702EE27BCFD9B00649525 /* Models */,
 				E0A702DA27BCE71800649525 /* AppDelegate.swift */,
 				E0A702DC27BCE71800649525 /* SceneDelegate.swift */,
-				E0A702E027BCE71800649525 /* Main.storyboard */,
 				E0A702E327BCE71A00649525 /* Assets.xcassets */,
-				E0A702E527BCE71A00649525 /* LaunchScreen.storyboard */,
 				E0A702E827BCE71A00649525 /* Info.plist */,
 			);
 			path = Superhero;
@@ -82,26 +80,8 @@
 		E0A702EE27BCFD9B00649525 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E0A702F027BCFDB200649525 /* ProfileCoreData */,
-				E0A702EF27BCFDA900649525 /* Profile */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		E0A702EF27BCFDA900649525 /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				E0A702F127BCFE0800649525 /* ProfileManager.swift */,
-				E0A702F327BCFE3B00649525 /* BodyParametrsStorage.swift */,
-			);
-			path = Profile;
-			sourceTree = "<group>";
-		};
-		E0A702F027BCFDB200649525 /* ProfileCoreData */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ProfileCoreData;
 			sourceTree = "<group>";
 		};
 		E0A702F527BCFE5600649525 /* Presentation */ = {
@@ -119,7 +99,9 @@
 		E0A702F627BCFE7200649525 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				E0A7030227BD200B00649525 /* Start.storyboard */,
+				E0A702E027BCE71800649525 /* Main.storyboard */,
+				E0A702E527BCE71A00649525 /* LaunchScreen.storyboard */,
+				E0E566CB27C2722500C0355D /* Start */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -168,6 +150,14 @@
 				E0A702FE27BCFF3700649525 /* Coordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		E0E566CB27C2722500C0355D /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				E0A7030227BD200B00649525 /* Start.storyboard */,
+			);
+			path = Start;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
