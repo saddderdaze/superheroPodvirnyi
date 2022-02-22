@@ -1,5 +1,5 @@
 //
-//  Entity+CoreDataProperties.swift
+//  Profile+CoreDataProperties.swift
 //  Superhero
 //
 //  Created by Max Podvirnyi on 22.02.2022.
@@ -10,16 +10,16 @@ import Foundation
 import CoreData
 
 
-extension Entity {
+extension Profile {
 
-    @nonobjc public class func fetchRequest() -> NSFetchRequest<Entity> {
-        return NSFetchRequest<Entity>(entityName: "Entity")
+    @nonobjc public class func fetchRequest() -> NSFetchRequest<Profile> {
+        return NSFetchRequest<Profile>(entityName: "Profile")
     }
 
     @NSManaged public var sex: String?
 
 }
 
-extension Entity : Identifiable {
+extension Profile : Identifiable {
 
 }

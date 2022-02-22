@@ -21,8 +21,9 @@
 		E0A7030127BD00BA00649525 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A7030027BD00BA00649525 /* MainCoordinator.swift */; };
 		E0A7030327BD200B00649525 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A7030227BD200B00649525 /* Start.storyboard */; };
 		E0E58E4C27C55559003416CA /* ProfileCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0E58E4A27C55558003416CA /* ProfileCoreData.xcdatamodeld */; };
-		E0E58E4F27C556F2003416CA /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E58E4D27C556F2003416CA /* Profile+CoreDataClass.swift */; };
-		E0E58E5027C556F2003416CA /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E58E4E27C556F2003416CA /* Profile+CoreDataProperties.swift */; };
+		E0E58E5C27C561CB003416CA /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E58E5A27C561CB003416CA /* Profile+CoreDataClass.swift */; };
+		E0E58E5D27C561CB003416CA /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E58E5B27C561CB003416CA /* Profile+CoreDataProperties.swift */; };
+		E0E58E5F27C5629A003416CA /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E58E5E27C5629A003416CA /* ProfileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,8 +43,9 @@
 		E0A7030027BD00BA00649525 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		E0A7030227BD200B00649525 /* Start.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
 		E0E58E4B27C55558003416CA /* ProfileCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProfileCoreData.xcdatamodel; sourceTree = "<group>"; };
-		E0E58E4D27C556F2003416CA /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataClass.swift"; sourceTree = "<group>"; };
-		E0E58E4E27C556F2003416CA /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E0E58E5A27C561CB003416CA /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E0E58E5B27C561CB003416CA /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E0E58E5E27C5629A003416CA /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		E0A702EE27BCFD9B00649525 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E0E58E5427C55998003416CA /* Profile  */,
 				E0E58E4927C55256003416CA /* ProfileCoreData */,
 			);
 			path = Models;
@@ -178,11 +181,19 @@
 		E0E58E4927C55256003416CA /* ProfileCoreData */ = {
 			isa = PBXGroup;
 			children = (
-				E0E58E4D27C556F2003416CA /* Profile+CoreDataClass.swift */,
-				E0E58E4E27C556F2003416CA /* Profile+CoreDataProperties.swift */,
+				E0E58E5A27C561CB003416CA /* Profile+CoreDataClass.swift */,
+				E0E58E5B27C561CB003416CA /* Profile+CoreDataProperties.swift */,
 				E0E58E4A27C55558003416CA /* ProfileCoreData.xcdatamodeld */,
 			);
 			path = ProfileCoreData;
+			sourceTree = "<group>";
+		};
+		E0E58E5427C55998003416CA /* Profile  */ = {
+			isa = PBXGroup;
+			children = (
+				E0E58E5E27C5629A003416CA /* ProfileManager.swift */,
+			);
+			path = "Profile ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,16 +270,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0E58E5027C556F2003416CA /* Profile+CoreDataProperties.swift in Sources */,
 				E0E58E4C27C55559003416CA /* ProfileCoreData.xcdatamodeld in Sources */,
 				E0A702DF27BCE71800649525 /* StartViewController.swift in Sources */,
+				E0E58E5D27C561CB003416CA /* Profile+CoreDataProperties.swift in Sources */,
+				E0E58E5F27C5629A003416CA /* ProfileManager.swift in Sources */,
 				E0A7030127BD00BA00649525 /* MainCoordinator.swift in Sources */,
 				E005175927C455D5003B32B8 /* SupergirlProfileViewController.swift in Sources */,
 				E0A702DB27BCE71800649525 /* AppDelegate.swift in Sources */,
 				E005175527C4550B003B32B8 /* SupermanProfileViewController.swift in Sources */,
 				E0A702DD27BCE71800649525 /* SceneDelegate.swift in Sources */,
+				E0E58E5C27C561CB003416CA /* Profile+CoreDataClass.swift in Sources */,
 				E0A702FF27BCFF3700649525 /* Coordinator.swift in Sources */,
-				E0E58E4F27C556F2003416CA /* Profile+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
