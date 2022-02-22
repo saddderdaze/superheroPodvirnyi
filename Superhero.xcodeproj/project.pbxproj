@@ -24,6 +24,8 @@
 		E0E58E5C27C561CB003416CA /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E58E5A27C561CB003416CA /* Profile+CoreDataClass.swift */; };
 		E0E58E5D27C561CB003416CA /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E58E5B27C561CB003416CA /* Profile+CoreDataProperties.swift */; };
 		E0E58E5F27C5629A003416CA /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E58E5E27C5629A003416CA /* ProfileManager.swift */; };
+		E0E58E6427C56D4E003416CA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E58E6327C56D4E003416CA /* HomeViewModel.swift */; };
+		E0E58E6727C57567003416CA /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E58E6627C57567003416CA /* StartViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		E0E58E5A27C561CB003416CA /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataClass.swift"; sourceTree = "<group>"; };
 		E0E58E5B27C561CB003416CA /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E0E58E5E27C5629A003416CA /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		E0E58E6327C56D4E003416CA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		E0E58E6627C57567003416CA /* StartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +129,7 @@
 		E0A702F727BCFE7E00649525 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				E0A702DE27BCE71800649525 /* StartViewController.swift */,
+				E0E58E6527C56E82003416CA /* Start */,
 				E005175427C4550B003B32B8 /* SupermanProfileViewController.swift */,
 				E005175827C455D5003B32B8 /* SupergirlProfileViewController.swift */,
 			);
@@ -135,6 +139,9 @@
 		E0A702F827BCFE8E00649525 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				E0E58E6227C56D2E003416CA /* Start */,
+				E0E58E6127C56D27003416CA /* Home */,
+				E0E58E6027C56D1F003416CA /* Profile */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -194,6 +201,37 @@
 				E0E58E5E27C5629A003416CA /* ProfileManager.swift */,
 			);
 			path = "Profile ";
+			sourceTree = "<group>";
+		};
+		E0E58E6027C56D1F003416CA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		E0E58E6127C56D27003416CA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E0E58E6327C56D4E003416CA /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E0E58E6227C56D2E003416CA /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				E0E58E6627C57567003416CA /* StartViewModel.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		E0E58E6527C56E82003416CA /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				E0A702DE27BCE71800649525 /* StartViewController.swift */,
+			);
+			path = Start;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0E58E6727C57567003416CA /* StartViewModel.swift in Sources */,
 				E0E58E4C27C55559003416CA /* ProfileCoreData.xcdatamodeld in Sources */,
 				E0A702DF27BCE71800649525 /* StartViewController.swift in Sources */,
 				E0E58E5D27C561CB003416CA /* Profile+CoreDataProperties.swift in Sources */,
@@ -277,6 +316,7 @@
 				E0A7030127BD00BA00649525 /* MainCoordinator.swift in Sources */,
 				E005175927C455D5003B32B8 /* SupergirlProfileViewController.swift in Sources */,
 				E0A702DB27BCE71800649525 /* AppDelegate.swift in Sources */,
+				E0E58E6427C56D4E003416CA /* HomeViewModel.swift in Sources */,
 				E005175527C4550B003B32B8 /* SupermanProfileViewController.swift in Sources */,
 				E0A702DD27BCE71800649525 /* SceneDelegate.swift in Sources */,
 				E0E58E5C27C561CB003416CA /* Profile+CoreDataClass.swift in Sources */,
