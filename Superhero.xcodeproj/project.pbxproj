@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E005175527C4550B003B32B8 /* SupermanProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E005175427C4550B003B32B8 /* SupermanProfileViewController.swift */; };
+		E005175727C45531003B32B8 /* Superman.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E005175627C45531003B32B8 /* Superman.storyboard */; };
+		E005175927C455D5003B32B8 /* SupergirlProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E005175827C455D5003B32B8 /* SupergirlProfileViewController.swift */; };
+		E005175B27C45604003B32B8 /* Supergirl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E005175A27C45604003B32B8 /* Supergirl.storyboard */; };
 		E0A702DB27BCE71800649525 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A702DA27BCE71800649525 /* AppDelegate.swift */; };
 		E0A702DD27BCE71800649525 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A702DC27BCE71800649525 /* SceneDelegate.swift */; };
 		E0A702DF27BCE71800649525 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A702DE27BCE71800649525 /* StartViewController.swift */; };
@@ -19,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E005175427C4550B003B32B8 /* SupermanProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupermanProfileViewController.swift; sourceTree = "<group>"; };
+		E005175627C45531003B32B8 /* Superman.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Superman.storyboard; sourceTree = "<group>"; };
+		E005175827C455D5003B32B8 /* SupergirlProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupergirlProfileViewController.swift; sourceTree = "<group>"; };
+		E005175A27C45604003B32B8 /* Supergirl.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Supergirl.storyboard; sourceTree = "<group>"; };
 		E0A702D727BCE71800649525 /* Superhero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Superhero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A702DA27BCE71800649525 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0A702DC27BCE71800649525 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +106,8 @@
 				E0A702E027BCE71800649525 /* Main.storyboard */,
 				E0A702E527BCE71A00649525 /* LaunchScreen.storyboard */,
 				E0E566CB27C2722500C0355D /* Start */,
+				E005175627C45531003B32B8 /* Superman.storyboard */,
+				E005175A27C45604003B32B8 /* Supergirl.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -106,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				E0A702DE27BCE71800649525 /* StartViewController.swift */,
+				E005175427C4550B003B32B8 /* SupermanProfileViewController.swift */,
+				E005175827C455D5003B32B8 /* SupergirlProfileViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -214,7 +226,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E005175727C45531003B32B8 /* Superman.storyboard in Resources */,
 				E0A702E727BCE71A00649525 /* LaunchScreen.storyboard in Resources */,
+				E005175B27C45604003B32B8 /* Supergirl.storyboard in Resources */,
 				E0A7030327BD200B00649525 /* Start.storyboard in Resources */,
 				E0A702E427BCE71A00649525 /* Assets.xcassets in Resources */,
 				E0A702E227BCE71800649525 /* Main.storyboard in Resources */,
@@ -230,7 +244,9 @@
 			files = (
 				E0A702DF27BCE71800649525 /* StartViewController.swift in Sources */,
 				E0A7030127BD00BA00649525 /* MainCoordinator.swift in Sources */,
+				E005175927C455D5003B32B8 /* SupergirlProfileViewController.swift in Sources */,
 				E0A702DB27BCE71800649525 /* AppDelegate.swift in Sources */,
+				E005175527C4550B003B32B8 /* SupermanProfileViewController.swift in Sources */,
 				E0A702DD27BCE71800649525 /* SceneDelegate.swift in Sources */,
 				E0A702FF27BCFF3700649525 /* Coordinator.swift in Sources */,
 			);
