@@ -20,6 +20,9 @@
 		E0A702FF27BCFF3700649525 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A702FE27BCFF3700649525 /* Coordinator.swift */; };
 		E0A7030127BD00BA00649525 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A7030027BD00BA00649525 /* MainCoordinator.swift */; };
 		E0A7030327BD200B00649525 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A7030227BD200B00649525 /* Start.storyboard */; };
+		E0E58E4C27C55559003416CA /* ProfileCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0E58E4A27C55558003416CA /* ProfileCoreData.xcdatamodeld */; };
+		E0E58E4F27C556F2003416CA /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E58E4D27C556F2003416CA /* Profile+CoreDataClass.swift */; };
+		E0E58E5027C556F2003416CA /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E58E4E27C556F2003416CA /* Profile+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		E0A702FE27BCFF3700649525 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		E0A7030027BD00BA00649525 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		E0A7030227BD200B00649525 /* Start.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
+		E0E58E4B27C55558003416CA /* ProfileCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProfileCoreData.xcdatamodel; sourceTree = "<group>"; };
+		E0E58E4D27C556F2003416CA /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E0E58E4E27C556F2003416CA /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,7 @@
 		E0A702EE27BCFD9B00649525 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E0E58E4927C55256003416CA /* ProfileCoreData */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -168,6 +175,16 @@
 			path = Start;
 			sourceTree = "<group>";
 		};
+		E0E58E4927C55256003416CA /* ProfileCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E0E58E4D27C556F2003416CA /* Profile+CoreDataClass.swift */,
+				E0E58E4E27C556F2003416CA /* Profile+CoreDataProperties.swift */,
+				E0E58E4A27C55558003416CA /* ProfileCoreData.xcdatamodeld */,
+			);
+			path = ProfileCoreData;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -242,6 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0E58E5027C556F2003416CA /* Profile+CoreDataProperties.swift in Sources */,
+				E0E58E4C27C55559003416CA /* ProfileCoreData.xcdatamodeld in Sources */,
 				E0A702DF27BCE71800649525 /* StartViewController.swift in Sources */,
 				E0A7030127BD00BA00649525 /* MainCoordinator.swift in Sources */,
 				E005175927C455D5003B32B8 /* SupergirlProfileViewController.swift in Sources */,
@@ -249,6 +268,7 @@
 				E005175527C4550B003B32B8 /* SupermanProfileViewController.swift in Sources */,
 				E0A702DD27BCE71800649525 /* SceneDelegate.swift in Sources */,
 				E0A702FF27BCFF3700649525 /* Coordinator.swift in Sources */,
+				E0E58E4F27C556F2003416CA /* Profile+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +492,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E0E58E4A27C55558003416CA /* ProfileCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E0E58E4B27C55558003416CA /* ProfileCoreData.xcdatamodel */,
+			);
+			currentVersion = E0E58E4B27C55558003416CA /* ProfileCoreData.xcdatamodel */;
+			path = ProfileCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E0A702CF27BCE71700649525 /* Project object */;
 }
