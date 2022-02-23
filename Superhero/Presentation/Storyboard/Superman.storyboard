@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Superman" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGU-mb-uhf">
-                                <rect key="frame" x="141.66666666666666" y="80" width="107" height="29"/>
+                                <rect key="frame" x="141.66666666666666" y="79" width="106.66666666666666" height="28.666666666666671"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -29,11 +29,11 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="zbb-81-o8O" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="C3h-3E-O8S"/>
-                            <constraint firstItem="zbb-81-o8O" firstAttribute="trailing" secondItem="5EZ-qb-Rvc" secondAttribute="trailing" id="CIw-pY-D5a"/>
+                            <constraint firstItem="zbb-81-o8O" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="C3h-3E-O8S"/>
+                            <constraint firstItem="zbb-81-o8O" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="CIw-pY-D5a"/>
                             <constraint firstItem="wGU-mb-uhf" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Z5d-cf-cC5"/>
                             <constraint firstAttribute="bottom" secondItem="zbb-81-o8O" secondAttribute="bottom" id="h88-MH-71V"/>
-                            <constraint firstItem="wGU-mb-uhf" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="80" id="jgw-cy-YCp"/>
+                            <constraint firstItem="wGU-mb-uhf" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="35" id="jgw-cy-YCp"/>
                             <constraint firstItem="zbb-81-o8O" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="uAK-oq-QIp"/>
                         </constraints>
                     </view>

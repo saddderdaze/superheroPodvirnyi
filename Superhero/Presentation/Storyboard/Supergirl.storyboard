@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,14 +13,14 @@
             <objects>
                 <viewController storyboardIdentifier="SupergirlProfileViewController" id="Y6W-OH-hqX" customClass="SupergirlProfileViewController" customModule="Superhero" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="supergirlImage2" translatesAutoresizingMaskIntoConstraints="NO" id="sw3-C6-CLJ">
-                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Supergirl" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4Q-qC-a9b">
-                                <rect key="frame" x="148.66666666666666" y="80" width="93" height="29"/>
+                                <rect key="frame" x="160.66666666666666" y="36" width="93" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -33,7 +33,7 @@
                             <constraint firstItem="sw3-C6-CLJ" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="Ftc-5k-tBT"/>
                             <constraint firstItem="sw3-C6-CLJ" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="JyJ-Ij-wkA"/>
                             <constraint firstAttribute="trailing" secondItem="sw3-C6-CLJ" secondAttribute="trailing" id="Kjp-sA-uGA"/>
-                            <constraint firstItem="C4Q-qC-a9b" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="80" id="Q8g-MV-SrC"/>
+                            <constraint firstItem="C4Q-qC-a9b" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="36" id="Q8g-MV-SrC"/>
                             <constraint firstItem="C4Q-qC-a9b" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Y2O-zg-peF"/>
                         </constraints>
                     </view>
