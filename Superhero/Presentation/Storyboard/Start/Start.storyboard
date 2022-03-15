@@ -19,39 +19,41 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="78j-md-ANd">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xMi-Yh-cCc">
+                                    <view contentMode="scaleToFill" id="4KL-6V-ury">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="422"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="supermanImage" translatesAutoresizingMaskIntoConstraints="NO" id="xES-f1-NZE">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="supermanImage" translatesAutoresizingMaskIntoConstraints="NO" id="Ha4-Dd-VGU">
                                                 <rect key="frame" x="0.0" y="0.0" width="390" height="422"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUy-WZ-0zd">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uzc-uD-yPh" userLabel="Male Button">
                                                 <rect key="frame" x="123" y="189" width="144" height="44"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="44" id="CI1-Yy-WjB"/>
-                                                    <constraint firstAttribute="width" constant="144" id="aMz-TF-XSJ"/>
+                                                    <constraint firstAttribute="height" constant="44" id="D4O-x1-ZaG"/>
+                                                    <constraint firstAttribute="width" constant="144" id="gLk-P9-Eaz"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="SUPERMAN" cornerStyle="capsule">
                                                     <backgroundConfiguration key="background">
-                                                        <color key="backgroundColor" red="1" green="0.85882352941176465" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="backgroundColor" red="1" green="0.85882352939999995" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="supermanAction" destination="RmM-ym-sZe" eventType="touchUpInside" id="6Lb-7R-3Qm"/>
+                                                    <action selector="supermanAction" destination="RmM-ym-sZe" eventType="touchUpInside" id="WOF-f8-egH"/>
                                                 </connections>
                                             </button>
                                         </subviews>
+                                        <viewLayoutGuide key="safeArea" id="ebf-Wk-7ml"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="xES-f1-NZE" firstAttribute="leading" secondItem="xMi-Yh-cCc" secondAttribute="leading" id="CQj-aI-gpA"/>
-                                            <constraint firstAttribute="bottom" secondItem="xES-f1-NZE" secondAttribute="bottom" id="Ide-Di-iG3"/>
-                                            <constraint firstItem="hUy-WZ-0zd" firstAttribute="centerY" secondItem="xMi-Yh-cCc" secondAttribute="centerY" id="WFY-9A-DMF"/>
-                                            <constraint firstAttribute="trailing" secondItem="xES-f1-NZE" secondAttribute="trailing" id="ZSG-ge-XdB"/>
-                                            <constraint firstItem="xES-f1-NZE" firstAttribute="top" secondItem="xMi-Yh-cCc" secondAttribute="top" id="d7V-UJ-A9I"/>
-                                            <constraint firstItem="hUy-WZ-0zd" firstAttribute="centerX" secondItem="xMi-Yh-cCc" secondAttribute="centerX" id="eIY-fo-liz"/>
+                                            <constraint firstItem="Uzc-uD-yPh" firstAttribute="centerX" secondItem="4KL-6V-ury" secondAttribute="centerX" id="2cd-Ly-5qo"/>
+                                            <constraint firstAttribute="trailing" secondItem="Ha4-Dd-VGU" secondAttribute="trailing" id="4Y2-mG-Ghs"/>
+                                            <constraint firstAttribute="bottom" secondItem="Ha4-Dd-VGU" secondAttribute="bottom" id="hBH-Fi-8NH"/>
+                                            <constraint firstItem="Ha4-Dd-VGU" firstAttribute="top" secondItem="4KL-6V-ury" secondAttribute="top" id="hXG-oO-Rq8"/>
+                                            <constraint firstItem="Uzc-uD-yPh" firstAttribute="centerY" secondItem="4KL-6V-ury" secondAttribute="centerY" id="hl1-Ki-qsg"/>
+                                            <constraint firstItem="Ha4-Dd-VGU" firstAttribute="leading" secondItem="4KL-6V-ury" secondAttribute="leading" id="xIN-cz-Gu0"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eya-GU-P6k">
@@ -60,7 +62,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="supergirlImage" translatesAutoresizingMaskIntoConstraints="NO" id="3L0-4V-ell">
                                                 <rect key="frame" x="0.0" y="0.0" width="390" height="422"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a5a-nO-iSh">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a5a-nO-iSh" userLabel="Female Button">
                                                 <rect key="frame" x="123" y="189" width="144" height="44"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="44" id="Qtz-do-dY5"/>
