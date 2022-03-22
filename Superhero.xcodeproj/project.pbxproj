@@ -11,6 +11,8 @@
 		E005175727C45531003B32B8 /* Superman.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E005175627C45531003B32B8 /* Superman.storyboard */; };
 		E005175927C455D5003B32B8 /* SupergirlProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E005175827C455D5003B32B8 /* SupergirlProfileViewController.swift */; };
 		E005175B27C45604003B32B8 /* Supergirl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E005175A27C45604003B32B8 /* Supergirl.storyboard */; };
+		E03BB57727E72EDF00D8CE0C /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E03BB57627E72EDE00D8CE0C /* Profile.storyboard */; };
+		E03BB57B27E72FAE00D8CE0C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03BB57A27E72FAE00D8CE0C /* ProfileViewController.swift */; };
 		E0A702DB27BCE71800649525 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A702DA27BCE71800649525 /* AppDelegate.swift */; };
 		E0A702DD27BCE71800649525 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A702DC27BCE71800649525 /* SceneDelegate.swift */; };
 		E0A702DF27BCE71800649525 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A702DE27BCE71800649525 /* StartViewController.swift */; };
@@ -33,6 +35,8 @@
 		E005175627C45531003B32B8 /* Superman.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Superman.storyboard; sourceTree = "<group>"; };
 		E005175827C455D5003B32B8 /* SupergirlProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupergirlProfileViewController.swift; sourceTree = "<group>"; };
 		E005175A27C45604003B32B8 /* Supergirl.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Supergirl.storyboard; sourceTree = "<group>"; };
+		E03BB57627E72EDE00D8CE0C /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		E03BB57A27E72FAE00D8CE0C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		E0A702D727BCE71800649525 /* Superhero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Superhero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A702DA27BCE71800649525 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0A702DC27BCE71800649525 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +126,7 @@
 				E0E566CB27C2722500C0355D /* Start */,
 				E005175627C45531003B32B8 /* Superman.storyboard */,
 				E005175A27C45604003B32B8 /* Supergirl.storyboard */,
+				E03BB57627E72EDE00D8CE0C /* Profile.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 				E0E58E6527C56E82003416CA /* Start */,
 				E005175427C4550B003B32B8 /* SupermanProfileViewController.swift */,
 				E005175827C455D5003B32B8 /* SupergirlProfileViewController.swift */,
+				E03BB57A27E72FAE00D8CE0C /* ProfileViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -297,6 +303,7 @@
 				E005175B27C45604003B32B8 /* Supergirl.storyboard in Resources */,
 				E0A7030327BD200B00649525 /* Start.storyboard in Resources */,
 				E0A702E427BCE71A00649525 /* Assets.xcassets in Resources */,
+				E03BB57727E72EDF00D8CE0C /* Profile.storyboard in Resources */,
 				E0A702E227BCE71800649525 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +328,7 @@
 				E0A702DD27BCE71800649525 /* SceneDelegate.swift in Sources */,
 				E0E58E5C27C561CB003416CA /* Profile+CoreDataClass.swift in Sources */,
 				E0A702FF27BCFF3700649525 /* Coordinator.swift in Sources */,
+				E03BB57B27E72FAE00D8CE0C /* ProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

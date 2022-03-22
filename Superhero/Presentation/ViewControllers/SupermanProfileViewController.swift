@@ -8,8 +8,11 @@
 import UIKit
 
 class SupermanProfileViewController: UIViewController {
+    
 
     @IBOutlet weak var gradientView: UIView!
+    
+    var coordinator: MainCoordinator?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,4 +38,5 @@ class SupermanProfileViewController: UIViewController {
         gradientLayer.position = view.center
         gradientView.layer.addSublayer(gradientLayer)
     }
+    
 }

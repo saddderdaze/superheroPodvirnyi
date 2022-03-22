@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RmM-ym-sZe">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,21 +13,21 @@
             <objects>
                 <viewController storyboardIdentifier="StartViewController" id="RmM-ym-sZe" customClass="StartViewController" customModule="Superhero" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rI3-PU-1cB">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="78j-md-ANd">
-                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="667.33333333333337"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="4KL-6V-ury">
-                                        <rect key="frame" x="0.0" y="0.0" width="390" height="422"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="333.66666666666669"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="supermanImage" translatesAutoresizingMaskIntoConstraints="NO" id="Ha4-Dd-VGU">
-                                                <rect key="frame" x="0.0" y="0.0" width="390" height="422"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="390" height="333.66666666666669"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uzc-uD-yPh" userLabel="Male Button">
-                                                <rect key="frame" x="123" y="189" width="144" height="44"/>
+                                                <rect key="frame" x="123" y="145" width="144" height="44"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="44" id="D4O-x1-ZaG"/>
                                                     <constraint firstAttribute="width" constant="144" id="gLk-P9-Eaz"/>
@@ -57,13 +57,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eya-GU-P6k">
-                                        <rect key="frame" x="0.0" y="422" width="390" height="422"/>
+                                        <rect key="frame" x="0.0" y="333.66666666666663" width="390" height="333.66666666666663"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="supergirlImage" translatesAutoresizingMaskIntoConstraints="NO" id="3L0-4V-ell">
-                                                <rect key="frame" x="0.0" y="0.0" width="390" height="422"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="390" height="333.66666666666669"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a5a-nO-iSh" userLabel="Female Button">
-                                                <rect key="frame" x="123" y="189" width="144" height="44"/>
+                                                <rect key="frame" x="123" y="145" width="144" height="44"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="44" id="Qtz-do-dY5"/>
                                                     <constraint firstAttribute="width" constant="144" id="WF1-sv-QPm"/>
@@ -94,7 +94,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SUPERHERO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOC-Fk-15b">
-                                <rect key="frame" x="99.333333333333329" y="371.66666666666669" width="191.33333333333337" height="39.333333333333314"/>
+                                <rect key="frame" x="99.333333333333329" y="-50.333333333333336" width="191.33333333333337" height="39.333333333333336"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
                                 <color key="textColor" red="1" green="0.85882352941176465" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.97658711669999998" green="0.84006124729999998" blue="0.38028639549999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -102,7 +102,7 @@
                                 <size key="shadowOffset" width="0.0" height="1"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose a character" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bN-rg-H4K">
-                                <rect key="frame" x="124.33333333333333" y="422" width="141.66666666666669" height="19.333333333333314"/>
+                                <rect key="frame" x="124.33333333333333" y="0.0" width="141.66666666666669" height="19.333333333333332"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -112,13 +112,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="0bN-rg-H4K" firstAttribute="top" secondItem="rI3-PU-1cB" secondAttribute="centerY" id="5uz-Tc-27R"/>
-                            <constraint firstItem="OmT-yl-dva" firstAttribute="trailing" secondItem="78j-md-ANd" secondAttribute="trailing" id="HEX-Wc-mIi"/>
+                            <constraint firstAttribute="trailing" secondItem="78j-md-ANd" secondAttribute="trailing" id="HEX-Wc-mIi"/>
                             <constraint firstItem="LOC-Fk-15b" firstAttribute="centerX" secondItem="rI3-PU-1cB" secondAttribute="centerX" id="Iqm-R7-z9j"/>
                             <constraint firstItem="78j-md-ANd" firstAttribute="top" secondItem="rI3-PU-1cB" secondAttribute="top" id="Jh2-N1-1hf"/>
-                            <constraint firstItem="78j-md-ANd" firstAttribute="leading" secondItem="OmT-yl-dva" secondAttribute="leading" id="iS1-OD-3Cp"/>
+                            <constraint firstItem="78j-md-ANd" firstAttribute="leading" secondItem="rI3-PU-1cB" secondAttribute="leading" id="iS1-OD-3Cp"/>
                             <constraint firstItem="0bN-rg-H4K" firstAttribute="centerX" secondItem="rI3-PU-1cB" secondAttribute="centerX" id="ibd-qJ-WRo"/>
                             <constraint firstAttribute="bottom" secondItem="78j-md-ANd" secondAttribute="bottom" id="mWp-yG-Svf"/>
-                            <constraint firstItem="LOC-Fk-15b" firstAttribute="bottom" secondItem="rI3-PU-1cB" secondAttribute="centerY" constant="-11" id="nf6-yb-Wl6"/>
+                            <constraint firstAttribute="centerY" secondItem="LOC-Fk-15b" secondAttribute="bottom" constant="11" id="nf6-yb-Wl6"/>
                         </constraints>
                     </view>
                 </viewController>

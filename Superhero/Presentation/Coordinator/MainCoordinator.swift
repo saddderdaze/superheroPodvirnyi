@@ -32,7 +32,16 @@ class MainCoordinator: Coordinator {
     
     func showSupergirlScreen() {
         let storyboard = UIStoryboard(name: "Supergirl", bundle: nil)
-        let controller = storyboard.instantiateViewController(withIdentifier: "SupergirlProfileViewController")
+        if let controller = storyboard.instantiateViewController(withIdentifier: "SupergirlProfileViewController") as? SupergirlProfileViewController {
+            controller.coordinator = self
+            navigationController.pushViewController(controller, animated: true)
+        }
+    }
+    
+    func showProfileScreen() {
+        let storyboard = UIStoryboard(name: "Profile", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "ProfileViewController")
         navigationController.pushViewController(controller, animated: true)
     }
+    
 }

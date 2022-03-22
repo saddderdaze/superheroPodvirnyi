@@ -1,22 +1,28 @@
 //
-//  SupergirlProfileViewController.swift
+//  ProfileViewController.swift
 //  Superhero
 //
-//  Created by Max Podvirnyi on 22.02.2022.
+//  Created by Max Podvirnyi on 20.03.2022.
 //
 
 import UIKit
 
-class SupergirlProfileViewController: UIViewController {
+class ProfileViewController: UIViewController {
+    
+
+    
     
     @IBOutlet weak var gradientView: UIView!
     
-    var coordinator: MainCoordinator?
-
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
+        
+        
+        navigationItem.title = "Profile"
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Save", style: .plain, target: self, action: #selector(saveAction))
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -37,7 +43,10 @@ class SupergirlProfileViewController: UIViewController {
         gradientView.layer.addSublayer(gradientLayer)
     }
     
-    @IBAction func profileaction() {
-        coordinator?.showProfileScreen()
+    @objc func saveAction() {
+        print("saveAction")
     }
+    
+    
+
 }
