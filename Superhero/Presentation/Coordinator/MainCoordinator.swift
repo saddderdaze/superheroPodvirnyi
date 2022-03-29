@@ -24,24 +24,22 @@ class MainCoordinator: Coordinator {
         }
     }
     
-    func showSupermanScreen() {
-        let storyboard = UIStoryboard(name: "Superman", bundle: nil)
-        let controller = storyboard.instantiateViewController(withIdentifier: "SupermanProfileViewController")
-        navigationController.pushViewController(controller, animated: true)
-    }
-    
-    func showSupergirlScreen() {
-        let storyboard = UIStoryboard(name: "Supergirl", bundle: nil)
-        if let controller = storyboard.instantiateViewController(withIdentifier: "SupergirlProfileViewController") as? SupergirlProfileViewController {
+    func showMenuScreen(for gender: Gender) {
+        let storyboard = UIStoryboard(name: "Menu", bundle: nil)
+        if let controller = storyboard.instantiateViewController(withIdentifier: "MenuViewController") as? MenuViewController {
             controller.coordinator = self
+            controller.gender = gender
             navigationController.pushViewController(controller, animated: true)
         }
     }
     
-    func showProfileScreen() {
+    func showProfileScreen(for gender: Gender) {
         let storyboard = UIStoryboard(name: "Profile", bundle: nil)
-        let controller = storyboard.instantiateViewController(withIdentifier: "ProfileViewController")
-        navigationController.pushViewController(controller, animated: true)
+        if let controller = storyboard.instantiateViewController(withIdentifier: "ProfileViewController") as? ProfileViewController {
+            controller.coordinator = self
+            controller.gender = gender
+            navigationController.pushViewController(controller, animated: true)
+        }
     }
     
 }

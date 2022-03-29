@@ -17,11 +17,11 @@ class StartViewController: UIViewController {
     }
 
     @IBAction func supermanAction() {
-        coordinator?.showSupermanScreen()
+        coordinator?.showMenuScreen(for: .male)
     }
     
     @IBAction func supergirlAction() {
-        coordinator?.showSupergirlScreen()
+        coordinator?.showMenuScreen(for: .female)
     }
 
 }

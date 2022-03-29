@@ -1,23 +1,20 @@
 //
-//  ProfileViewController.swift
+//  MenuViewController.swift
 //  Superhero
 //
-//  Created by Max Podvirnyi on 20.03.2022.
+//  Created by Max Podvirnyi on 22.02.2022.
 //
 
 import UIKit
 
-class ProfileViewController: UIViewController {
+class MenuViewController: UIViewController {
     
-
+    @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var backgroundImageView: UIImageView!
-    @IBOutlet weak var nameTextField: UITextField!
-    let userDefaults = UserDefaults.standard
-    
     @IBOutlet weak var gradientView: UIView!
     
-    var gender: Gender?
     var coordinator: MainCoordinator?
+    var gender: Gender?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,36 +24,19 @@ class ProfileViewController: UIViewController {
         switch gender {
         case .male:
             // setup male
-            
+            titleLabel.text = "Superman"
             backgroundImageView.image = UIImage(named: "supermanImage")
             // imageView.image = maleImage
             break
         case .female:
             // setup female
-            
+            titleLabel.text = "Supergirl"
             backgroundImageView.image = UIImage(named: "supergirlImage")
             // imageView.image = femaleImage
             break
         case .none:
             break
         }
-    
-        
-        navigationController?.navigationBar.tintColor = UIColor(red: 0.906, green: 0.769, blue: 0.345, alpha: 1)
-        navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
-        
-        
-        navigationItem.title = "Profile"
-        
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Save", style: .plain, target: self, action: #selector(saveAction))
-        
-//        //load
-//        if let name = userDefaults.object(forKey: "name") {
-//            nameTextField.text = name as? String
-//        }
-//        
-//        
-        
     }
     
     func setGradientBackground() {
@@ -72,16 +52,11 @@ class ProfileViewController: UIViewController {
         gradientView.layer.addSublayer(gradientLayer)
     }
     
-    @objc func saveAction() {
-            print("saveAction")
+    @IBAction func profileaction() {
+        guard let gender = gender else {
+            return
         }
-    
-    
-    
-//    @IBAction func saveAction(_ sender: UIBarButtonItem) {
-//        UserDefaults.setValue(nameTextField.text, forKey: "name")
-//        print("Save")
-//    }
-    
-
+        
+        coordinator?.showProfileScreen(for: gender)
+    }
 }
