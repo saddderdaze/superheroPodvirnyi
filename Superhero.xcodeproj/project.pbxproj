@@ -11,7 +11,6 @@
 		E005175B27C45604003B32B8 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E005175A27C45604003B32B8 /* Menu.storyboard */; };
 		E01FD3CD27EB70BF00F4617D /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01FD3CC27EB70BE00F4617D /* Gender.swift */; };
 		E01FD3D127EB8CD500F4617D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01FD3D027EB8CD500F4617D /* TableViewController.swift */; };
-		E01FD3D327EB8CEE00F4617D /* Table.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01FD3D227EB8CEE00F4617D /* Table.storyboard */; };
 		E03BB57727E72EDF00D8CE0C /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E03BB57627E72EDE00D8CE0C /* Profile.storyboard */; };
 		E03BB57B27E72FAE00D8CE0C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03BB57A27E72FAE00D8CE0C /* ProfileViewController.swift */; };
 		E0A702DB27BCE71800649525 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A702DA27BCE71800649525 /* AppDelegate.swift */; };
@@ -36,7 +35,6 @@
 		E005175A27C45604003B32B8 /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
 		E01FD3CC27EB70BE00F4617D /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
 		E01FD3D027EB8CD500F4617D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		E01FD3D227EB8CEE00F4617D /* Table.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Table.storyboard; sourceTree = "<group>"; };
 		E03BB57627E72EDE00D8CE0C /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		E03BB57A27E72FAE00D8CE0C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		E0A702D727BCE71800649525 /* Superhero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Superhero.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,7 +127,6 @@
 				E0A7030227BD200B00649525 /* Start.storyboard */,
 				E005175A27C45604003B32B8 /* Menu.storyboard */,
 				E03BB57627E72EDE00D8CE0C /* Profile.storyboard */,
-				E01FD3D227EB8CEE00F4617D /* Table.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -285,7 +282,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E01FD3D327EB8CEE00F4617D /* Table.storyboard in Resources */,
 				E0A702E727BCE71A00649525 /* LaunchScreen.storyboard in Resources */,
 				E005175B27C45604003B32B8 /* Menu.storyboard in Resources */,
 				E0A7030327BD200B00649525 /* Start.storyboard in Resources */,
