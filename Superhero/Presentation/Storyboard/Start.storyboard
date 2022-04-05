@@ -12,18 +12,18 @@
         <scene sceneID="0gi-Me-Ou2">
             <objects>
                 <viewController storyboardIdentifier="StartViewController" id="RmM-ym-sZe" customClass="StartViewController" customModule="Superhero" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="rI3-PU-1cB">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="rI3-PU-1cB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="78j-md-ANd">
-                                <rect key="frame" x="0.0" y="44" width="390" height="667"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="78j-md-ANd">
+                                <rect key="frame" x="0.0" y="229" width="390" height="667"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="4KL-6V-ury">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="333.5"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="supermanImage" translatesAutoresizingMaskIntoConstraints="NO" id="Ha4-Dd-VGU">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="supermanImage" translatesAutoresizingMaskIntoConstraints="NO" id="Ha4-Dd-VGU">
                                                 <rect key="frame" x="0.0" y="0.0" width="390" height="333.5"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uzc-uD-yPh" userLabel="Male Button">
@@ -46,13 +46,13 @@
                                             </button>
                                         </subviews>
                                         <viewLayoutGuide key="safeArea" id="ebf-Wk-7ml"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <constraints>
-                                            <constraint firstItem="Uzc-uD-yPh" firstAttribute="centerX" secondItem="4KL-6V-ury" secondAttribute="centerX" id="2cd-Ly-5qo"/>
                                             <constraint firstAttribute="trailing" secondItem="Ha4-Dd-VGU" secondAttribute="trailing" id="4Y2-mG-Ghs"/>
+                                            <constraint firstItem="Uzc-uD-yPh" firstAttribute="centerX" secondItem="4KL-6V-ury" secondAttribute="centerX" id="FDH-3X-EbU"/>
                                             <constraint firstAttribute="bottom" secondItem="Ha4-Dd-VGU" secondAttribute="bottom" id="hBH-Fi-8NH"/>
                                             <constraint firstItem="Ha4-Dd-VGU" firstAttribute="top" secondItem="4KL-6V-ury" secondAttribute="top" id="hXG-oO-Rq8"/>
-                                            <constraint firstItem="Uzc-uD-yPh" firstAttribute="centerY" secondItem="4KL-6V-ury" secondAttribute="centerY" id="hl1-Ki-qsg"/>
+                                            <constraint firstItem="Uzc-uD-yPh" firstAttribute="centerY" secondItem="4KL-6V-ury" secondAttribute="centerY" id="i6o-R1-LQJ"/>
                                             <constraint firstItem="Ha4-Dd-VGU" firstAttribute="leading" secondItem="4KL-6V-ury" secondAttribute="leading" id="xIN-cz-Gu0"/>
                                         </constraints>
                                     </view>
@@ -93,7 +93,7 @@
                                     </view>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SUPERHERO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOC-Fk-15b">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="SUPERHERO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOC-Fk-15b">
                                 <rect key="frame" x="111.5" y="397.5" width="191.5" height="39.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
                                 <color key="textColor" red="1" green="0.85882352941176465" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -101,7 +101,7 @@
                                 <color key="shadowColor" red="0.97658711669999998" green="0.84006124729999998" blue="0.38028639549999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <size key="shadowOffset" width="0.0" height="1"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose a character" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bN-rg-H4K">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Choose a character" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bN-rg-H4K">
                                 <rect key="frame" x="136" y="448" width="142" height="19.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -112,13 +112,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="0bN-rg-H4K" firstAttribute="top" secondItem="rI3-PU-1cB" secondAttribute="centerY" id="5uz-Tc-27R"/>
-                            <constraint firstItem="78j-md-ANd" firstAttribute="bottom" secondItem="OmT-yl-dva" secondAttribute="bottom" id="I97-H6-upR"/>
+                            <constraint firstAttribute="trailing" secondItem="78j-md-ANd" secondAttribute="trailing" id="7ee-zL-cgo"/>
                             <constraint firstItem="LOC-Fk-15b" firstAttribute="centerX" secondItem="rI3-PU-1cB" secondAttribute="centerX" id="Iqm-R7-z9j"/>
-                            <constraint firstAttribute="trailing" secondItem="78j-md-ANd" secondAttribute="trailing" constant="24" id="fcD-dJ-REN"/>
-                            <constraint firstItem="78j-md-ANd" firstAttribute="top" secondItem="OmT-yl-dva" secondAttribute="top" id="gar-9v-5sq"/>
+                            <constraint firstItem="78j-md-ANd" firstAttribute="top" secondItem="rI3-PU-1cB" secondAttribute="top" id="TDK-oE-4eW"/>
+                            <constraint firstAttribute="bottom" secondItem="78j-md-ANd" secondAttribute="bottom" id="ejJ-Ru-7TB"/>
                             <constraint firstItem="0bN-rg-H4K" firstAttribute="centerX" secondItem="rI3-PU-1cB" secondAttribute="centerX" id="ibd-qJ-WRo"/>
                             <constraint firstAttribute="centerY" secondItem="LOC-Fk-15b" secondAttribute="bottom" constant="11" id="nf6-yb-Wl6"/>
-                            <constraint firstItem="78j-md-ANd" firstAttribute="leading" secondItem="rI3-PU-1cB" secondAttribute="leading" id="og1-EU-rC8"/>
+                            <constraint firstItem="78j-md-ANd" firstAttribute="leading" secondItem="rI3-PU-1cB" secondAttribute="leading" id="x94-2v-0jz"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -132,6 +132,9 @@
         <image name="supermanImage" width="375" height="406"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
