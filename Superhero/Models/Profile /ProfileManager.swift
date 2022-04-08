@@ -33,9 +33,8 @@ class ProfileManager {
         let entity = NSEntityDescription.entity(forEntityName: "Profile", in: mainContext)
         userProfile = Profile(entity: entity!, insertInto: mainContext)
         
-      
         userProfile?.sex = gender
-    
+        
         saveProfileInfo()
     }
     
